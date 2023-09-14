@@ -1,0 +1,37 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - Purchases (3.7.5):
+    - PurchasesCoreSwift (= 3.7.5)
+  - purchases_flutter (1.4.3):
+    - FlutterMacOS
+    - PurchasesHybridCommon (= 1.4.5)
+  - PurchasesCoreSwift (3.7.5)
+  - PurchasesHybridCommon (1.4.5):
+    - Purchases (= 3.7.5)
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral/.symlinks/flutter/darwin-x64`)
+  - purchases_flutter (from `Flutter/ephemeral/.symlinks/plugins/purchases_flutter/macos`)
+
+SPEC REPOS:
+  trunk:
+    - Purchases
+    - PurchasesCoreSwift
+    - PurchasesHybridCommon
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral/.symlinks/flutter/darwin-x64
+  purchases_flutter:
+    :path: Flutter/ephemeral/.symlinks/plugins/purchases_flutter/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 15bea8a44d2fa024068daa0140371c020b4b6ff9
+  Purchases: 7ebce9418bc16732c3c3bb4b6ff7e7e397de024e
+  purchases_flutter: f630c6f87c4e05cc4496058216e3c8019b6ef8d0
+  PurchasesCoreSwift: 50636e307c1ab76c7a7894a87d042665f2fe0be9
+  PurchasesHybridCommon: b1dd1c5125ccf99b9e62b5974d0e5145895e8b87
+
+PODFILE CHECKSUM: 77099ba0c243b0cab165ba0601a9995e35fa19fb
+
+COCOAPODS: 1.10.0

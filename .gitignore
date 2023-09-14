@@ -1,0 +1,33 @@
+.DS_Store
+.dart_tool/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+.packages
+.pub/
+build/
+pubspec.lock
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+example/ios/Flutter/flutter_export_environment.sh
+example/.flutter-plugins-dependencies
+example/ios/Flutter/Flutter.podspec
+example/ios/Flutter/.last_build_id
+example/android/.composite-enable
