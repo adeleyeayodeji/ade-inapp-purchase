@@ -41,6 +41,10 @@ class Purchases {
       {String? appUserId,
       bool observerMode = false,
       String? userDefaultsSuiteName}) async {
+    //if userDefaultsSuiteName is null use appUserId as userDefaultsSuiteName
+    if (userDefaultsSuiteName == null) {
+      userDefaultsSuiteName = appUserId;
+    }
     return await _channel.invokeMethod('setupPurchases', {
       'apiKey': apiKey,
       'appUserId': appUserId,
